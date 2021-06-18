@@ -1,13 +1,14 @@
-/* TODO: Label selector type */
+/* Assigning Fonts Globally to all Elements */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-/* TODO: Label selector type */
+/* Setting background-color to body tag */
 body {
   background-color: lemonchiffon;
 }
 
+/* Setting Width / Height / Line-height / color / background color to Header and Footer tags */
 header,
 footer {
   width: 100%;
@@ -17,17 +18,27 @@ footer {
   background-color: #191970;
 }
 
+/* Setting width and background-color to figure tag */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* Bolding the highlighted-text class */
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* Setting the background-color of the contact-selector element */
 #contact-section {
   background-color: #f0ead6;
 }
+
+/* 
+Bonus: What are pseudo-class selectors?
+
+pseudo-class selector is a sub-class of a class, such as 
+
+Assigning a different color to an <a> tag to change hover or link text.
+
+*/
