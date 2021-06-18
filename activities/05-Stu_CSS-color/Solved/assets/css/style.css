@@ -1,14 +1,14 @@
 .section {
-    width: 200px;
-    height: 100px;
+  width: 200px;
+  height: 100px;
 }
 
 .section-blue {
   background-color: blue;
-  color: orange;
+  color: lightblue;
 
 }
-  
+
 .container {
   background-color: black;
   color: white;
