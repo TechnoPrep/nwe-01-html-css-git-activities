@@ -16,12 +16,14 @@ ul {
 li {
   /* TODO: Add your code here */
   list-style-type: none;
+  display:inline-block;
   font-size: 40px;
 }
 
 /* Boxes */
 img {
   /* TODO: Add your code here */
+  display: block;
   margin: 0 auto;
 }
 
@@ -40,5 +42,7 @@ img {
 /* Box 3 */
 #image-3 {
   /* TODO: Add your code here */
-  display: none;
+  display: block;
 }
+
+/* Visibility just hides it from view but the element is still there, display  will remove and hide the element*/
